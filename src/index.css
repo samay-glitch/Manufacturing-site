@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #0B132B;
+    --foreground: #EBEBEB;
+    --primary: #F77F00;
+  }
+
+  html, body {
+    @apply bg-[#0B132B] text-[#EBEBEB] antialiased overflow-x-hidden;
+    cursor: none; /* For custom cursor */
+  }
+
+  /* Lenis smooth scrolling reset */
+  html.lenis, html.lenis body {
+    height: auto;
+  }
+
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+
+  .lenis.lenis-smooth iframe {
+    pointer-events: none;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-brand-steel/60 backdrop-blur-md border border-white/10;
+  }
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-gray to-brand-teal;
+  }
+}
