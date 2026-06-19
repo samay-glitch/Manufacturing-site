@@ -30,7 +30,7 @@ The website focuses on creating a strong digital presence for manufacturing comp
 
 ### Contact Section
 
-![Contact](https://github.com/user-attachments/assets/1e42041b-6cec-4dbe-a047-3379e6eeb5b1>)
+![Contact](https://github.com/user-attachments/assets/1e42041b-6cec-4dbe-a047-3379e6eeb5b1)
 
 ---
 
